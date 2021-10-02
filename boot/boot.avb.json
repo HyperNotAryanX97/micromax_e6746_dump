@@ -1,0 +1,75 @@
+{
+  "header" : {
+    "required_libavb_version_major" : 1,
+    "required_libavb_version_minor" : 0,
+    "authentication_data_block_size" : 320,
+    "auxiliary_data_block_size" : 896,
+    "algorithm_type" : 1,
+    "hash_offset" : 0,
+    "hash_size" : 32,
+    "signature_offset" : 32,
+    "signature_size" : 256,
+    "public_key_offset" : 360,
+    "public_key_size" : 520,
+    "public_key_metadata_offset" : 880,
+    "public_key_metadata_size" : 0,
+    "descriptors_offset" : 0,
+    "descriptors_size" : 360,
+    "rollback_index" : 0,
+    "flags" : 0,
+    "release_string" : "avbtool 1.1.0"
+  },
+  "authBlob" : {
+    "offset" : 10535168,
+    "size" : 320,
+    "hash" : "e3e3e8db1e5d385b0243f9c5b9b3d4f601902ae118e023d6a58f84a3fb3eb05d",
+    "signature" : "2ae297993ef1ff9ec4101e8c2718afa8b39779e56bfb033ae09f9912ecce2b10d7a98c111683b8705597221a0299dc27975658c8c1efc4ec9cfc927a63eee985fb3ef126c733895dd3d57199926304421667088c5497d6dbfe66314e827bde7f28c92ec168135386e1b76bfa2714a4bfe8771cbd6c799a87949cf1a6e5c3bf22e6b8010d53027a01f3491192115c486c582754ca6c821a41a1ae0106502092a112aff4096bf5206104f207b44006fa5e9b61d694662ee9c20028164e570c29e5834c62e7799cd59048f539a68abd2c96d40566f69702d15f7184db7901309de9f01085ff46128b713eb309a3dec18ddb261629937ba3aa4f6df38b6f8b1da35b"
+  },
+  "auxBlob" : {
+    "pubkey" : {
+      "offset" : 360,
+      "size" : 520,
+      "pubkey" : "AAAIACE0TH3J5YLi23aR9wWd50PFlKcWXAGo9NM9JASechyIilD6a8cb30bpI5LVy4+Y5hA4XbZ22XLYUE1G0k2pcE+fHHAV19bEW5v3sD8SKKnye59LcmKRk7f45fJsUZM3bRocw0QHIQlQvuyJQ5L5Pm5E9sjFnSILjtE+NTlqmE7koOP6UhRiceZTxvb7IKJEdoaewO+IBWNk33zCAMA9KgoXuooiQ8xXIPJcmzc30U5H1yrFEaefUHpX7i9n5KOwFiXQ1aogBEgKqloF2uALsktVG8qS4J+wqX3o2xzae+hX4DY9hBzACbar0hETKWepjI7DSOzebnpTV52l6FAG/rirN3Mrg5Pc2KkqrtHS15IHSuH6bSoXwTY9xAja236wNiWC0b05W+IAmXKM4tE84dDT/qxurvZ1joVITCuddofTTlXNRf51SRZcT7J7LSHVEbNzZYmfOipk12ONhQYQpmnTKgSy57+hNgNR/pUguz4KFWsHYZdbERflXeXUf3SP7abHsPbgRx17NOG34suRSHjY7dEXfO7R0qItsEdYFikeTZIfmAKobaRFKBPrIyq9WhMI3eZQghl+3sCJBv+s3zbBwA0Sf5xRFzYBLk7DbTfx6vxUuUu9Tud3oyFPXGFGALcs7Y0/nHBmQ0niBjr7hRNUQwmNXElXjwAkeh0te9z2JiiHCw=="
+    },
+    "pubkeyMeta" : null,
+    "propertyDescriptors" : [ {
+      "tag" : 0,
+      "num_bytes_following" : 56,
+      "sequence" : 2,
+      "key" : "com.android.build.boot.os_version",
+      "value" : "10"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 3,
+      "key" : "com.android.build.boot.security_patch",
+      "value" : "2019-06-06"
+    } ],
+    "hashTreeDescriptors" : [ ],
+    "hashDescriptors" : [ {
+      "tag" : 2,
+      "num_bytes_following" : 184,
+      "sequence" : 1,
+      "flags" : 0,
+      "partition_name" : "boot",
+      "hash_algorithm" : "sha256",
+      "image_size" : 10534912,
+      "salt" : "FTlcm6QgD2rYYc/Ws9VfheY/2hGyEuSHA1SJbUZpFTw=",
+      "digest" : "Uk+E/j0q+HuIwJuqOYt55+ts/+ZHv6IGrSzkBf3tsAk=",
+      "partition_name_len" : 4,
+      "salt_len" : 32,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    } ],
+    "kernelCmdlineDescriptors" : [ ],
+    "chainPartitionDescriptors" : [ ],
+    "unknownDescriptors" : [ ]
+  },
+  "footer" : {
+    "versionMajor" : 1,
+    "versionMinor" : 0,
+    "originalImageSize" : 10534912,
+    "vbMetaOffset" : 10534912,
+    "vbMetaSize" : 1472
+  }
+}

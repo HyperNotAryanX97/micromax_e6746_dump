@@ -1,0 +1,38 @@
+{
+  "info" : {
+    "output" : "boot.img",
+    "json" : "boot.json",
+    "headerVersion" : 2,
+    "headerSize" : 1660,
+    "loadBase" : 0,
+    "tagsOffset" : 1271398400,
+    "board" : "",
+    "pageSize" : 2048,
+    "cmdline" : "bootopt=64S3,32N2,64N2 buildvariant=user",
+    "osVersion" : "10.0.0",
+    "osPatchLevel" : "2021-03-00",
+    "hash" : "v7e/AlLEE9M4b6Pj1MeIOz5VuXYAAAAAAAAAAAAAAAA=",
+    "verify" : "VB2.0 PASS",
+    "imageSize" : 33554432
+  },
+  "kernel" : {
+    "file" : "build/unzip_boot/kernel",
+    "position" : 2048,
+    "size" : 9633050,
+    "loadOffset" : 1074266112
+  },
+  "ramdisk" : {
+    "file" : "build/unzip_boot/ramdisk.img.gz",
+    "position" : 9635840,
+    "size" : 795675,
+    "loadOffset" : 1204289536
+  },
+  "secondBootloader" : null,
+  "recoveryDtbo" : null,
+  "dtb" : {
+    "file" : "build/unzip_boot/dtb",
+    "position" : 10432512,
+    "size" : 102133,
+    "loadOffset" : 1271398400
+  }
+}
